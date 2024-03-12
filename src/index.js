@@ -15,3 +15,8 @@ let nome =  "Andrea";
 
 console.log(`A string ${nome.toUpperCase()} possui ${nome.length} letras.`);
 // ============================================================================================
+
+var nome = "GIOVANI";
+
+console.log("Boa noite me chamo" nome);
+
