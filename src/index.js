@@ -1,4 +1,5 @@
 var x = "Anderson";
+var y = "Daniele";
 var empty = "";
 
 console.log(
