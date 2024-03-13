@@ -19,6 +19,7 @@ var n1 = 15;
 var n2 = 25;
 var soma = n1+n2;
 
+console.log(soma);
 console.log(soma + 2);
 console.log(soma + "2");
 
@@ -26,23 +27,24 @@ var string = soma.toString();
 
 console.log(typeof(string));
 console.log(typeof(soma));
+
 //=============================================================================================
 
 let alunoUm = "Daniele,";
-let alunoDois = "Anderson,";
-let alunoTres = "Giovani,";
-let alunoQuatro = "Andrea e";
-let alunoCinco = "Joyce";
+alunoDois = "Anderson,";
+alunoTres = "Giovani,";
+alunoQuatro = "Andrea e";
+alunoCinco = "Joyce";
 
-console.log("O Squad 4 é formado por:", alunoUm, alunoDois, alunoTres, alunoQuatro, alunoCinco);
+console.log("O \"Squad 4\" é formado por:", alunoUm, alunoDois, alunoTres, alunoQuatro, alunoCinco);
 
 
 var aluna = "Joyce";
 console.log ("Frutas para o café da manhã:");
 
-var n1 = "banana";
-var n2 = "maça";
-var n3 = "laranja";
-var soma = n1 + n2 + n3;
+var n1 = "banana ";
+var n2 = "maça ";
+var n3 = "laranja ";
+var soma = (n1 + n2 + n3);
 
 console.log(soma);
