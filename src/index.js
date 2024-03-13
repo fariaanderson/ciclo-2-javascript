@@ -10,11 +10,6 @@ console.log(
   "Daniele possui " + y.length + " unidades de código de comprimento",
 );
 
-var valorA;
-valorFinal = valorA;
-console.log(valorFinal);
-
-
 // ============================================================================================
 let nome =  "Andrea";
 
@@ -22,7 +17,7 @@ console.log(`A string ${nome.toUpperCase()} possui ${nome.length} letras.`);
 // ============================================================================================
 //=============================================================================================
 
-var nome = "GIOVANI";
-console.log("Boa noite me chamo" nome);
+var aluno = "GIOVANI";
+console.log("Boa noite me chamo" aluno);
 //=============================================================================================
 
