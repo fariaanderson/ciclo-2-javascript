@@ -1,42 +1,41 @@
 var x = "Anderson";
-var y = "Daniele";
 var empty = "";
 
-console.log(
-<<<<<<< HEAD
- "Anderson possui " + x.length + " unidades de código de comprimento",
-);
-=======
-  "Anderson possui " + x.length + " unidades de código de comprimento");
->>>>>>> 2ff0065ef636122d37de7ff6c9a72e0ed564dbc7
-
-console.log(
-  "Daniele possui " + y.length + " unidades de código de comprimento");
+console.log("Anderson possui " + x.length + " unidades de código de comprimento");
 
 // ============================================================================================
 
-let nome =  "Andrea";
+let aluna = "Andrea";
 
-<<<<<<< HEAD
-console.log(`A string ${nome.toUpperCase()} possui ${nome.length} letras.`); ============================================================================================
-=======
-console.log(`A string ${nome.toUpperCase()} possui ${nome.length} letras.`);
-// ============================================================================================
+console.log(`A string ${aluna.toUpperCase()} possui ${aluna.length} letras.`);
+console.log(`A string ${aluna.toLowerCase()} possui ${aluna.length} letras.`);
+
 //=============================================================================================
 
-var aluno = "GIOVANI";
-<<<<<<< HEAD
-console.log("Boa noite me chamo" aluno);
->>>>>>> 66afc234deffba1c4eb9cad3e2d089672237cd66
-=======
-console.log("Boa noite me chamo" + aluno);
->>>>>>> 2ff0065ef636122d37de7ff6c9a72e0ed564dbc7
-//=============================================================================================
+var nome = "GIOVANI";
+console.log("Boa noite me chamo", nome);
 
-var nome = "GIOVANI";//========================================================================
-console.log("Boa noite me chamo" , nome);
 var n1 = 15;
 var n2 = 25;
 var soma = n1+n2;
-console.log(soma);
+
+console.log(soma + 2);
+console.log(soma + "2");
+
+var string = soma.toString();
+
+console.log(typeof(string));
+console.log(typeof(soma));
 //=============================================================================================
+
+let alunoUm = "Daniele,";
+let alunoDois = "Anderson,";
+let alunoTres = "Giovani,";
+let alunoQuatro = "Andrea e";
+let alunoCinco = "Joyce";
+
+console.log("O Squad 4 é formado por:", alunoUm, alunoDois, alunoTres, alunoQuatro, alunoCinco);
+
+
+
+
