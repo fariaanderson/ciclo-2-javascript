@@ -39,4 +39,12 @@ var n1 = 15;
 var n2 = 25;
 var soma = n1+n2;
 console.log(soma);
-//=============================================================================================
+//================
+
+var aluna = "Joyce";
+console.log ("Frutas para o café da manhã");
+var n1: banana;
+var n2: maça;
+var n3: laranja;
+var soma = n1+n2+n3;
+
